@@ -23,7 +23,7 @@ function SocialLink({ className, href, children, icon: Icon }) {
 }
 
 export default function About() {
-  const { author, email, linkedin, github } = siteMetadata
+  const { author, email, linkedin, github, twitter } = siteMetadata
   return (
     <>
       <Head>
