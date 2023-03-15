@@ -81,7 +81,7 @@ const Skills = () => {
         viewport={{ once: true }}
         className="my-10 grid grid-cols-3 gap-4"
       >
-        {skills.map((index) => {
+        {skills.map((skill, index) => {
           return (
             <motion.div
               title={skill.name}
