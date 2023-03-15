@@ -38,33 +38,26 @@ export default function Hero() {
   return (
     <div className="mb-5 max-w-2xl">
       <h1 className="text-4xl font-bold tracking-tight text-gray-800 dark:text-zinc-100 sm:text-5xl">
-        Web developer, tech enthusiast, and fitness junkie
+        Spirituality enthusiast, and fitness junkie
       </h1>
       <p className="mt-6 text-base text-gray-600 dark:text-gray-400">
-        I'm Curtis, a web developer based in Vancouver BC. As a Lead at Apple, I keep the store
-        running smoothly on a daily basis. I've coordinated product launches, repair programs, and
-        store openings. I enjoy working with a team to solve problems and build solutions.
+        I'm Lennon, a student of Health and Social Care based in England, Northamptonshire.
       </p>
       <div className="mt-6 flex gap-6">
         <SocialLink
           href="https://twitter.com/lennonruthven"
           aria-label="Check out my Twitter"
-          icon={IoLogoGithub}
+          icon={IoLogoTwitter}
         />
         <SocialLink
-          href="https://www.linkedin.com/in/curtiswarcup/"
+          href="https://www.linkedin.com/"
           aria-label="Connect with me on LinkedIn"
           icon={IoLogoLinkedin}
         />
         <CopyToClipboard
-          text={{ contact: 'curtis.gwarcup@gmail.com', type: 'Email' }}
+          text={{ contact: 'lennonruthven@outlook.com', type: 'Email' }}
           aria-label="Send me an email"
           icon={IoMail}
-        />
-        <CopyToClipboard
-          text={{ contact: '+1 (604) 374-4652', type: 'Phone number' }}
-          aria-label="Give me a call"
-          icon={IoCall}
         />
       </div>
     </div>
