@@ -47,8 +47,8 @@ export default function Hero() {
       </p>
       <div className="mt-6 flex gap-6">
         <SocialLink
-          href="https://github.com/Cwarcup"
-          aria-label="Check out my Github"
+          href="https://twitter.com/lennonruthven"
+          aria-label="Check out my Twitter"
           icon={IoLogoGithub}
         />
         <SocialLink
