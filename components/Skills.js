@@ -20,10 +20,6 @@ import { FadeContainer, popUp } from '../lib/FramerMotionVariants'
 
 const skills = [
   {
-    name: 'TypeScript',
-    logo: SiTypescript,
-  },
-  {
     name: 'HTML',
     logo: SiHtml5,
   },
