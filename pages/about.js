@@ -5,7 +5,7 @@ import Link from '@/components/Link'
 import { Analytics } from '@vercel/analytics/react'
 
 import { Container } from '@/components/Container'
-import { GitHubIcon, LinkedInIcon, MailIcon } from '@/components/social-icons'
+import { GitHubIcon, LinkedInIcon, MailIcon, TwitterIcon } from '@/components/social-icons'
 import portraitImage from '../public/static/images/avatar.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
@@ -66,8 +66,8 @@ export default function About() {
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href={github} icon={GitHubIcon} className="mt-4">
-                Follow on GitHub
+              <SocialLink href={github} icon={TwitterIcon} className="mt-4">
+                Follow on Twitter
               </SocialLink>
               <SocialLink href={linkedin} icon={LinkedInIcon} className="mt-4">
                 Follow on LinkedIn
@@ -77,7 +77,7 @@ export default function About() {
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                curtis.gwarcup@gmail.com
+                Lennonruthven@outlook.com
               </SocialLink>
             </ul>
           </div>
