@@ -47,20 +47,31 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Curtis Warcup. I live in rainy Vancouver, BC.
+              I’m Lennon Ruthven. I live in rainy England.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
+		"Why do I see through my eyes and not yours" and "What am I doing here?" are examples of
+		questions that went through my young, innocent 14 year old mind. 
+              <p>
+		I sought answers.
+              </p>
+              <p>
+		I began experimenting with psychedelics
+              </p>
+
+              <p>
+		I began lucid dreaming and astral projecting.
+              </p>
+              <p>
+              <p>
+                I overcame my smoking addiction.
+              </p>
+ 		I learn't that we can live better lives under the roof of truth; the only opportunity we have in this
+		lifetime is to evolve with the truth because through truth do we evolve. 
 		Lorem ipsum dolor sit amet. Id facilis mollitia qui dolor enim et quam iste et fugit
 		recusandae aut minus odit sed quia vero. Hic explicabo laudantium non dolore eaque aut
 		unde fugit qui iusto excepturi est rerum velit vel magni doloribus et earum perferendis.
-              </p>
-              <p>
-                Sed veniam totam et sapiente velit et earum quia. Qui dolore cumque et tempore magni et
-		accusamus nemo ex error odio id tenetur dignissimos.
-              </p>
-              <p>
-		Template
               </p>
             </div>
           </div>
