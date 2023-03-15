@@ -14,24 +14,6 @@ const RecentProjects = ({ MAX_PROJECTS }) => {
         <div className="my-4">
           <span className="font-poppins title-font text-3xl font-bold"> Yes </span>
         </div>
-        <div className="py-5">
-          <AnimatedDiv
-            variants={FadeContainer}
-            className="mx-auto grid grid-cols-1 gap-4 md:ml-[20%] xl:ml-[24%]"
-          >
-            {projectsList.map((d) => (
-              <ProjectCard
-                key={d.title}
-                title={d.title}
-                description={d.description}
-                imgSrc={d.imgSrc}
-                href={d.href}
-                tools={d.tools}
-                deployed={d.deployed}
-              />
-            ))}
-          </AnimatedDiv>
-        </div>
         <div className="mt-5 flex justify-end text-base font-medium leading-6">
           <Link href="/projects" className="mt-5 hover:text-primary-400" aria-label="all posts">
             All Projects &rarr;
