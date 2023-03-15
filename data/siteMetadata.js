@@ -1,9 +1,9 @@
 const siteMetadata = {
-  title: 'cwarcup - Curtis Warcup',
-  author: 'Curtis Warcup',
-  headerTitle: 'Curtis Warcup - Web Developer',
+  title: 'Lennon Ruthven',
+  author: 'Lennon Ruthven',
+  headerTitle: 'Lennon Ruthven',
   description:
-    'Personal blog and web development notes created by Curtis Warcup. Also contains projects and personal interests.',
+    'Personal blog and web development notes created by Lennon Ruthven. Also contains projects and personal interests.',
   language: 'en-us',
   theme: 'dark', // system, dark or light
   siteUrl: 'https://cwarcup.com',
@@ -11,12 +11,12 @@ const siteMetadata = {
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.jpg',
   socialBanner: '/static/images/twitter-card.png',
-  email: 'curtis.gwarcup@gmail.com',
-  github: 'https://github.com/Cwarcup',
-  twitter: 'https://twitter.com/curtiswarcup',
-  facebook: 'https://www.facebook.com/curtis.wwwwww',
+  email: 'lennonruthven@outlook.com',
+  github: 'https://github.com/Lennon-ruthven',
+  twitter: 'https://twitter.com/lennonruthven',
+  facebook: 'https://www.facebook.com/',
   youtube: 'https://youtube.com',
-  linkedin: 'https://www.linkedin.com/in/curtiswarcup/',
+  linkedin: 'https://www.linkedin.com/',
   locale: 'en-US',
   analytics: {
     // If you want to use an analytics provider you have to add it to the
