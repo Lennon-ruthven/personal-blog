@@ -59,14 +59,13 @@ export default function About() {
               <p>
 		I began experimenting with psychedelics
               </p>
-
               <p>
 		I began lucid dreaming and astral projecting.
               </p>
               <p>
-              <p>
                 I overcame my smoking addiction.
               </p>
+	      <p>
  		I learn't that we can live better lives under the roof of truth; the only opportunity we have in this
 		lifetime is to evolve with the truth because through truth do we evolve. 
 		Lorem ipsum dolor sit amet. Id facilis mollitia qui dolor enim et quam iste et fugit
