@@ -73,7 +73,7 @@ const skills = [
 const Skills = () => {
   return (
     <>
-      <span className="font-poppins title-font text-3xl font-bold">My Top Skills</span>
+      <span className="font-poppins title-font text-3xl font-bold"> </span>
       <motion.div
         initial="hidden"
         whileInView="visible"
@@ -81,7 +81,7 @@ const Skills = () => {
         viewport={{ once: true }}
         className="my-10 grid grid-cols-3 gap-4"
       >
-        {skills.map((skill, index) => {
+        {skills.map((index) => {
           return (
             <motion.div
               title={skill.name}
