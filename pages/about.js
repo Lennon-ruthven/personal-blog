@@ -47,7 +47,7 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Curtis Warcup. I live in rainy Vancouver, BC.
+              I’m Lennon Ruthven. I live in a town in North Northamptonshire.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
@@ -74,18 +74,15 @@ export default function About() {
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href={github} icon={GitHubIcon} className="mt-4">
-                Follow on GitHub
-              </SocialLink>
-              <SocialLink href={linkedin} icon={LinkedInIcon} className="mt-4">
-                Follow on LinkedIn
+              <SocialLink href={twitter} icon={TwitterIcon} className="mt-4">
+                Follow on Twitter
               </SocialLink>
               <SocialLink
                 href={`mailto:${email}`}
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                curtis.gwarcup@gmail.com
+                lennonruthven@outlook.com
               </SocialLink>
             </ul>
           </div>
