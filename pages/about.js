@@ -5,7 +5,7 @@ import Link from '@/components/Link'
 import { Analytics } from '@vercel/analytics/react'
 
 import { Container } from '@/components/Container'
-import { GitHubIcon, LinkedInIcon, MailIcon, TwitterIcon } from '@/components/social-icons'
+import { GitHubIcon, LinkedInIcon, MailIcon } from '@/components/social-icons'
 import portraitImage from '../public/static/images/avatar.jpg'
 
 function SocialLink({ className, href, children, icon: Icon }) {
@@ -23,7 +23,7 @@ function SocialLink({ className, href, children, icon: Icon }) {
 }
 
 export default function About() {
-  const { author, email, linkedin, github, twitter } = siteMetadata
+  const { author, email, linkedin, github } = siteMetadata
   return (
     <>
       <Head>
@@ -47,44 +47,45 @@ export default function About() {
           </div>
           <div className="lg:order-first lg:row-span-2">
             <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-              I’m Lennon Ruthven. I live in rainy England.
+              I’m Curtis Warcup. I live in rainy Vancouver, BC.
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-		"Why do I see through my eyes and not yours" and "What am I doing here?" are examples of
-		questions that went through my young, innocent 14 year old mind. 
-              <p>
-		I sought answers.
+                "Why do I see through my eyes and not yours" and "What am I doing here?" are examples
+		of questions that went through my young, innocent 14 year old mind.
               </p>
               <p>
-		I began experimenting with psychedelics
+                I sought answers.
               </p>
               <p>
-		I began lucid dreaming and astral projecting.
+                I began experimenting with psychedelics.
+              </p>
+              <p>
+                I began lucid dreaming and astral projecting.
               </p>
               <p>
                 I overcame my smoking addiction.
               </p>
-	      <p>
- 		I learn't that we can live better lives under the roof of truth; the only opportunity we have in this
-		lifetime is to evolve with the truth because through truth do we evolve. 
-		Lorem ipsum dolor sit amet. Id facilis mollitia qui dolor enim et quam iste et fugit
-		recusandae aut minus odit sed quia vero. Hic explicabo laudantium non dolore eaque aut
-		unde fugit qui iusto excepturi est rerum velit vel magni doloribus et earum perferendis.
+              <p>
+                I learn't that we can live better lives under the roof of truth; the only opportunity we have in this
+		lifetime is to evolve with the truth because through truth do we evolve.
               </p>
             </div>
           </div>
           <div className="lg:pl-20">
             <ul role="list">
-              <SocialLink href={twitter} icon={TwitterIcon} className="mt-4">
-                Follow on Twitter
+              <SocialLink href={github} icon={GitHubIcon} className="mt-4">
+                Follow on GitHub
+              </SocialLink>
+              <SocialLink href={linkedin} icon={LinkedInIcon} className="mt-4">
+                Follow on LinkedIn
               </SocialLink>
               <SocialLink
                 href={`mailto:${email}`}
                 icon={MailIcon}
                 className="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40"
               >
-                Lennonruthven@outlook.com
+                curtis.gwarcup@gmail.com
               </SocialLink>
             </ul>
           </div>
