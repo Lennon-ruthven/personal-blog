@@ -26,10 +26,6 @@ export default function Home({ posts }) {
       <Skills />
       <RecentProjects MAX_PROJECTS="4" />
 
-      <div className="container mx-auto divide-y divide-gray-700">
-        <div className="my-4 flex flex-col">
-          <span className="font-poppins title-font text-3xl font-bold">Recent Posts</span>
-        </div>
               <div className="my-2 grid items-start gap-8">
                 <div className="group relative">
                   <div className="animate-tilt absolute -inset-0.5 rounded-lg bg-gradient-to-r from-fuchsia-600 to-emerald-600 opacity-50 blur transition duration-1000 group-hover:opacity-100 group-hover:duration-200"></div>
@@ -59,6 +55,11 @@ export default function Home({ posts }) {
                   </Link>
                 </div>
               </div>
+
+      <div className="container mx-auto divide-y divide-gray-700">
+        <div className="my-4 flex flex-col">
+          <span className="font-poppins title-font text-3xl font-bold">Recent Posts</span>
+        </div>
         <div className="grid gap-5 sm:mt-6 sm:pt-10 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-5">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
