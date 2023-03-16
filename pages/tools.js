@@ -40,18 +40,8 @@ export default function Tools() {
                     : 'bg-grey-100 flex items-center rounded-md p-2'
                 }
               >
-                <AiOutlineMacCommand />
-                <span className="">macOS</span>
-              </Tab>
-              <Tab
-                className={({ selected }) =>
-                  selected
-                    ? 'flex items-center rounded-md bg-logoColor p-2'
-                    : 'bg-grey-100 flex items-center rounded-md p-2'
-                }
-              >
                 <AiOutlineDesktop />
-                <span className="">Web</span>
+                <span className="">Windows</span>
               </Tab>
             </Tab.List>
             <Tab.Panels>
@@ -72,7 +62,7 @@ export default function Tools() {
               <Tab.Panel>
                 <div className="container py-12">
                   <div className="-m-4 flex flex-wrap justify-center">
-                    <ToolsGrid filter="web" />
+                    <ToolsGrid filter="windows" />
                   </div>
                 </div>
               </Tab.Panel>
