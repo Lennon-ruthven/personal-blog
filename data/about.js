@@ -30,7 +30,7 @@ export default function About() {
         <title>{`About - ${author}`}</title>
         <meta
           name="description"
-          content="Hi, I'm Curtis Warcup. I'm a software engineer and a lifelong learner. I'm passionate about building great software and sharing what I learn along the way."
+          content="Hi, I'm Lennon Ruthven. I'm a Health and Social Care student and a lifelong learner. I'm passionate about occultism, self-development and fitness, and sharing what I learn along the way."
         />
       </Head>
       <Container className="mt-10">
