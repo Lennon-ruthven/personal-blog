@@ -1,13 +1,12 @@
 const headerNavLinks = [
   { href: '/', title: 'Home' },
+  { href: '/articles', title: 'articles' },
   { href: '/about', title: 'About' },
-  { href: '/posts', title: 'Posts' },
   {
     type: 'dropdown',
     title: 'Other',
     links: [
       { href: '/tags', title: 'Tags' },
-      { href: '/tools', title: 'Tools' },
     ],
   },
 ]
