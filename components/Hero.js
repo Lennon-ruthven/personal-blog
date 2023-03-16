@@ -49,11 +49,6 @@ export default function Hero() {
           aria-label="Check out my Twitter"
           icon={IoLogoTwitter}
         />
-        <SocialLink
-          href="https://www.linkedin.com/"
-          aria-label="Connect with me on LinkedIn"
-          icon={IoLogoLinkedin}
-        />
         <CopyToClipboard
           text={{ contact: 'lennonruthven@outlook.com', type: 'Email' }}
           aria-label="Send me an email"
