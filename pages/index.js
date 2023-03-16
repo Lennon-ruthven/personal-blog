@@ -58,7 +58,7 @@ export default function Home({ posts }) {
         {posts.length > MAX_DISPLAY && (
           <div className="mt-5 flex justify-end text-base font-medium leading-6">
             <Link href="/posts" className="mt-5 hover:text-primary-400" aria-label="all posts">
-              All Posts &rarr;
+              All Articles &rarr;
             </Link>
           </div>
         )}
