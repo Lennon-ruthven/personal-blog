@@ -11,7 +11,7 @@ const ProjectCard = ({ title, description, imgSrc, href, tools, deployed }) => (
         alt={title}
         src={imgSrc}
         width={1200}
-        height={630}
+        height={330}
         layout="responsive"
         placeholder="blur"
         objectFit="cover"
