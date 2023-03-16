@@ -11,13 +11,13 @@ const RecentProjects = ({ MAX_PROJECTS }) => {
   return (
     <>
       <div className="divide-y divide-gray-700">
-        <div className="my-4">
+        <div className="my-2">
           <span className="font-poppins title-font text-3xl font-bold">Recent Resources</span>
         </div>
         <div className="py-5">
           <AnimatedDiv
             variants={FadeContainer}
-            className="mx-auto grid grid-cols-1 gap-4 md:ml-[80%] xl:ml-[5%]"
+            className="mx-auto grid grid-cols-1 gap-2 md:ml-[20%] xl:ml-[24%]"
           >
             {projectsList.map((d) => (
               <ProjectCard
