@@ -34,7 +34,7 @@ const RecentProjects = ({ MAX_PROJECTS }) => {
         </div>
         <div className="mt-5 flex justify-end text-base font-medium leading-6">
           <Link href="/resources" className="mt-5 hover:text-primary-400" aria-label="all posts">
-            All Projects &rarr;
+            All Resources &rarr;
           </Link>
         </div>
       </div>
