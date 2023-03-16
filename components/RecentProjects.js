@@ -17,7 +17,7 @@ const RecentProjects = ({ MAX_PROJECTS }) => {
         <div className="py-5">
           <AnimatedDiv
             variants={FadeContainer}
-            className="mx-auto grid grid-cols-2 gap-4 md:ml-[80%] xl:ml-[0%]"
+            className="mx-auto grid grid-cols-2 gap-4 md:ml-[80%] xl:ml-[15%]"
           >
             {projectsList.map((d) => (
               <ProjectCard
