@@ -152,7 +152,7 @@ pre[class*='language-'] {
 .token.variable,
 .token.operator,
 .token.function {
-  color: hsl(207, 82%, 66%);
+  color: hsl(114, 39%, 57%);
 }
 
 .token.url {
