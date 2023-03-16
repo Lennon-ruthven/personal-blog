@@ -5,7 +5,7 @@ import { MdOutlineLink } from 'react-icons/md'
 
 const ProjectCard = ({ title, description, imgSrc, href, tools, deployed }) => (
   <div className="card">
-    <div className="relative -mt-[35%] w-full shrink-0 overflow-hidden rounded-xl shadow-2xl before:absolute before:inset-0 before:z-10 before:bg-black/20 sm:-mt-0 sm:w-1/2 md:-ml-[35%] md:w-8/12">
+    <div className="relative -mt-[80%] w-full shrink-0 overflow-hidden rounded-xl shadow-2xl before:absolute before:inset-0 before:z-10 before:bg-black/20 sm:-mt-0 sm:w-1/2 md:-ml-[35%] md:w-8/12">
       <Image
         title={title}
         alt={title}
@@ -22,8 +22,8 @@ const ProjectCard = ({ title, description, imgSrc, href, tools, deployed }) => (
     </div>
 
     <div className="flex flex-col justify-start gap-3">
-      <h1 className="font-bold capitalize text-neutral-100">{title}</h1>
-      <p className="truncate-2 text-sm text-neutral-100">{description}</p>
+      <h1 className="font-bold capitalize text-neutral-200">{title}</h1>
+      <p className="truncate-2 text-sm text-neutral-400">{description}</p>
 
       <div className="flex flex-wrap items-center gap-1">
         {tools.map((tool, index) => {
