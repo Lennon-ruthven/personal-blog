@@ -51,7 +51,7 @@ module.exports = {
         primary: colors.sky,
         gray: colors.neutral,
         cardBg: '#0F141A',
-        logoColor: '#46CDCF',
+        logoColor: '#afd69b',
         darkSecondary: '#25282A',
       },
       typography: (theme) => ({
@@ -129,7 +129,7 @@ module.exports = {
             a: {
               color: theme('colors.primary.500'),
               '&:hover': {
-                color: `${theme('colors.primary.400')} !important`,
+                color: `${theme('colors.primary.600')} !important`,
               },
               code: { color: theme('colors.primary.400') },
             },
