@@ -30,7 +30,7 @@ export default function About() {
         <title>{`About - ${author}`}</title>
         <meta
           name="description"
-          content="Hi, I'm Curtis Warcup. I'm a software engineer and a lifelong learner. I'm passionate about building great software and sharing what I learn along the way."
+          content="Hi, I'm Lennon Ruthven. I'm a Health and Social Care student and a lifelong learner. I'm passionate about occultism, self-development and fitness, and sharing what I learn along the way."
         />
       </Head>
       <Container className="mt-10">
@@ -39,7 +39,7 @@ export default function About() {
             <div className="max-w-xs px-2.5 lg:max-w-none">
               <Image
                 src={portraitImage}
-                alt="portrait of Curtis Warcup"
+                alt="portrait of Lennon Ruthven"
                 sizes="(min-width: 1024px) 32rem, 20rem"
                 className="aspect-square rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
               />
