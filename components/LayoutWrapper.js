@@ -1,5 +1,5 @@
 import headerNavLinks from '@/data/headerNavLinks'
-import Logo from '@/data/logo-header.svg'
+import Logo from '@/data/logo-header.png'
 import Link from './Link'
 import SectionContainer from './SectionContainer'
 import Footer from './Footer'
@@ -35,7 +35,7 @@ const LayoutWrapper = ({ children }) => {
     <>
       <header className={classes} ref={ref}>
         <div className="mx-auto flex max-w-3xl items-center justify-between bg-cardBg bg-opacity-5 px-4 sm:px-6 xl:max-w-5xl xl:px-0">
-          <Link href="/" aria-label="Lennon Ruthven">
+          <Link href="/" aria-label="Curtis Warcup">
             <div className="mr-3">
               <Logo />
             </div>
@@ -48,7 +48,7 @@ const LayoutWrapper = ({ children }) => {
                     <Link
                       key={link.title}
                       href={link.href}
-                      className="p-1 font-bold text-gray-100 hover:text-lime-500 sm:p-4"
+                      className="p-1 font-bold text-gray-100 hover:text-primary-400 sm:p-4"
                     >
                       {link.title}
                     </Link>
@@ -58,7 +58,7 @@ const LayoutWrapper = ({ children }) => {
                   return (
                     <Menu key={link.title} as="a" className="relative inline-block p-1 sm:p-4">
                       <div>
-                        <Menu.Button className="inline-flex justify-center rounded-md bg-transparent font-bold text-gray-100 hover:text-lime-500 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
+                        <Menu.Button className="inline-flex justify-center rounded-md bg-transparent font-bold text-gray-100 hover:text-primary-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75">
                           Other
                           <ChevronDownIcon
                             className="ml-2 -mr-1 h-5 w-5 text-violet-200 hover:text-violet-100"
@@ -82,7 +82,7 @@ const LayoutWrapper = ({ children }) => {
                                 {({ active }) => (
                                   <button
                                     className={`${
-                                      active ? 'text-lime-500' : 'text-gray-100'
+                                      active ? 'text-primary-400' : 'text-gray-100'
                                     } group flex w-full justify-center  rounded-md px-2 py-2 font-bold`}
                                   >
                                     <Link href={item.href}>{item.title}</Link>
