@@ -41,7 +41,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   <div className="pt-4 xl:pt-8">
                     <Link
                       href={`/blog/${prev.slug}`}
-                      className="text-primary-500 hover:text-primary-400"
+                      className="text-lime-500 hover:text-lime-400"
                     >
                       &larr; {prev.title}
                     </Link>
@@ -51,7 +51,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                   <div className="pt-4 xl:pt-8">
                     <Link
                       href={`/blog/${next.slug}`}
-                      className="text-primary-500 hover:text-primary-400"
+                      className="text-lime-500 hover:text-lime-400"
                     >
                       {next.title} &rarr;
                     </Link>

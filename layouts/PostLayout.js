@@ -204,7 +204,7 @@ function TocComponent({ toc }) {
         <Link href={e.url}>
           <p
             className={`border-l-[3px] pl-2 ${
-              isActive(e) && 'border-primary-500 text-primary-600'
+              isActive(e) && 'border-lime-500 text-lime-600'
             }`}
           >
             {e.value}
