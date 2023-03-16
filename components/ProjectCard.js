@@ -5,12 +5,12 @@ import { MdOutlineLink } from 'react-icons/md'
 
 const ProjectCard = ({ title, description, imgSrc, href, tools, deployed }) => (
   <div className="card">
-    <div className="relative -mt-[80%] w-full shrink-0 overflow-hidden rounded-xl shadow-2xl before:absolute before:inset-0 before:z-10 before:bg-black/20 sm:-mt-0 sm:w-1/2 md:-ml-[35%] md:w-8/12">
+    <div className="relative -mt-[35%] w-full shrink-0 overflow-hidden rounded-xl shadow-2xl before:absolute before:inset-0 before:z-10 before:bg-black/20 sm:-mt-0 sm:w-1/2 md:-ml-[35%] md:w-8/12">
       <Image
         title={title}
         alt={title}
         src={imgSrc}
-        width={1000}
+        width={1200}
         height={630}
         layout="responsive"
         placeholder="blur"
@@ -36,17 +36,6 @@ const ProjectCard = ({ title, description, imgSrc, href, tools, deployed }) => (
       </div>
 
       <div className="mt-auto flex w-fit items-center gap-4 p-2">
-        <Link href={href}>
-          <a
-            title="Source Code on GitHub"
-            target="_blank"
-            rel="noopener noreferrer"
-            href={href}
-            className="text-gray-500 hover:text-white"
-          >
-            <BsGithub className="h-6 w-6 transition-all hover:scale-110 active:scale-90" />
-          </a>
-        </Link>
 
         {deployed && (
           <Link href={deployed}>
