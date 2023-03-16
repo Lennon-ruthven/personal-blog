@@ -25,10 +25,12 @@ export default function Home({ posts }) {
       <Hero />
       <Skills />
       <RecentProjects MAX_PROJECTS="4" />
+
       <div className="container mx-auto divide-y divide-gray-700">
         <div className="my-4 flex flex-col">
-          <span className="font-poppins title-font text-3xl font-bold">Recent Posts</span>
+          <span className="font-poppins title-font text-3xl font-bold">Recent Articles</span>
         </div>
+
         <div className="grid gap-5 sm:mt-6 sm:pt-10 lg:grid-cols-2 lg:gap-x-5 lg:gap-y-5">
           {!posts.length && 'No posts found.'}
           {posts.slice(0, MAX_DISPLAY).map((frontMatter) => {
