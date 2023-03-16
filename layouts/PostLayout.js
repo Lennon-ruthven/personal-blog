@@ -107,7 +107,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                           {author.twitter && (
                             <Link
                               href={author.twitter}
-                              className="text-primary-500 hover:text-primary-400"
+                              className="text-lime-500 hover:text-lime-400"
                             >
                               {author.twitter.replace('https://twitter.com/', '@')}
                             </Link>
@@ -141,7 +141,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                         <h2 className="text-xs uppercase tracking-wide text-gray-400">
                           Previous Article
                         </h2>
-                        <div className="text-primary-500 hover:text-primary-400">
+                        <div className="text-lime-500 hover:text-lime-400">
                           <Link href={`/blog/${prev.slug}`}>{prev.title}</Link>
                         </div>
                       </div>
@@ -151,7 +151,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                         <h2 className="text-xs uppercase tracking-wide text-gray-400">
                           Next Article
                         </h2>
-                        <div className="text-primary-500 hover:text-primary-400">
+                        <div className="text-lime-500 hover:text-lime-400">
                           <Link href={`/blog/${next.slug}`}>{next.title}</Link>
                         </div>
                       </div>
@@ -160,7 +160,7 @@ export default function PostLayout({ frontMatter, authorDetails, next, prev, chi
                 )}
               </div>
               <div className="sticky top-0 pt-4 xl:pt-8">
-                <Link href="/posts" className="text-primary-500 hover:text-primary-400">
+                <Link href="/posts" className="text-lime-500 hover:text-lime-400">
                   &larr; Back to the all posts
                 </Link>
                 <div className="hidden md:block">
