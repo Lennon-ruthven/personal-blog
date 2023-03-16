@@ -82,7 +82,7 @@ const LayoutWrapper = ({ children }) => {
                                 {({ active }) => (
                                   <button
                                     className={`${
-                                      active ? 'text-primary-400' : 'text-gray-100'
+                                      active ? 'text-lime-500' : 'text-gray-100'
                                     } group flex w-full justify-center  rounded-md px-2 py-2 font-bold`}
                                   >
                                     <Link href={item.href}>{item.title}</Link>
