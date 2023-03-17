@@ -21,7 +21,7 @@ export async function getStaticProps() {
 export default function Home({ posts }) {
   return (
     <>
-      <PageSEO title={`Home - {siteMetadata.title} description={siteMetadata.description} />
+      <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <Hero />
       <Skills />
       <RecentProjects MAX_PROJECTS="4" />
