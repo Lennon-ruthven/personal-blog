@@ -2,6 +2,7 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { IoLogoGithub, IoLogoLinkedin, IoMail, IoCall, IoLogoTwitter } from 'react-icons/io5'
 import Notification from './Notification'
+import portraitImage from '../public/static/images/avatar.jpg'
 
 function SocialLink({ icon: Icon, ...props }) {
   return (
@@ -49,11 +50,10 @@ export default function Hero() {
     <div className="flex items-center justify-center">
       <div className="flex flex-col items-center pt-8 my-2 space-x-2">
         <Image
-          src={siteMetadata.image}
-          alt="avatar"
-          width="192px"
-          height="192px"
-          className="w-48 h-48 rounded-full"
+          src={portraitImage}
+          alt="portrait of Lennon Ruthven"
+          sizes="(min-width: 1024px) 32rem, 20rem"
+          className="aspect-square rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
         />
       </div>
     </div>
