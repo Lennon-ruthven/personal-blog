@@ -36,6 +36,8 @@ function CopyToClipboard({ icon: Icon, text, ...props }) {
 
 export default function Hero() {
   return (
+  <div>
+   <div className="flex flex-col items-center xl:flex-row gap-x-12 mb-12">
     <div className="mb-5 max-w-2xl">
       <h1 className="text-4xl font-bold tracking-tight text-gray-800 dark:text-zinc-100 sm:text-5xl">
         Spirituality enthusiast, and fitness junkie
@@ -43,6 +45,20 @@ export default function Hero() {
       <p className="mt-6 text-base text-gray-600 dark:text-gray-400">
         I'm Lennon, a student of Health and Social Care based in England, Northamptonshire.
       </p>
+    </div>
+    <div className="flex items-center justify-center">
+      <div className="flex flex-col items-center pt-8 my-2 space-x-2">
+        <Image
+          src={siteMetadata.image}
+          alt="avatar"
+          width="192px"
+          height="192px"
+          className="w-48 h-48 rounded-full"
+        />
+      </div>
+    </div>
+   </div>
+          
       <div className="mt-6 flex gap-6">
         <SocialLink
           href="https://twitter.com/lennonruthven"
@@ -54,8 +70,10 @@ export default function Hero() {
           aria-label="Send me an email"
           icon={IoMail}
         />
-      </div>
+  
     </div>
+  </div>
+
   )
 }
 // <div className="flex flex-col w-full">
