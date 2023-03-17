@@ -2,7 +2,6 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { IoLogoGithub, IoLogoLinkedin, IoMail, IoCall, IoLogoTwitter } from 'react-icons/io5'
 import Notification from './Notification'
-import portraitImage from '../public/static/images/avatar.jpg'
 
 function SocialLink({ icon: Icon, ...props }) {
   return (
@@ -37,8 +36,6 @@ function CopyToClipboard({ icon: Icon, text, ...props }) {
 
 export default function Hero() {
   return (
-  <div>
-   <div className="flex flex-col items-center xl:flex-row gap-x-12 mb-12">
     <div className="mb-5 max-w-2xl">
       <h1 className="text-4xl font-bold tracking-tight text-gray-800 dark:text-zinc-100 sm:text-5xl">
         Spirituality enthusiast, and fitness junkie
@@ -46,19 +43,6 @@ export default function Hero() {
       <p className="mt-6 text-base text-gray-600 dark:text-gray-400">
         I'm Lennon, a student of Health and Social Care based in England, Northamptonshire.
       </p>
-    </div>
-    <div className="flex items-center justify-center">
-      <div className="flex flex-col items-center pt-8 my-2 space-x-2">
-        <Image
-          src={portraitImage}
-          alt="portrait of Lennon Ruthven"
-          sizes="(min-width: 1024px) 32rem, 20rem"
-          className="aspect-square rounded-2xl bg-zinc-100 object-cover dark:bg-zinc-800"
-        />
-      </div>
-    </div>
-   </div>
-          
       <div className="mt-6 flex gap-6">
         <SocialLink
           href="https://twitter.com/lennonruthven"
@@ -70,10 +54,13 @@ export default function Hero() {
           aria-label="Send me an email"
           icon={IoMail}
         />
-  
+        <CopyToClipboard
+          text={{ contact: '+447572276516', type: 'Phone number' }}
+          aria-label="Give me a call"
+          icon={IoCall}
+        />
+      </div>
     </div>
-  </div>
-
   )
 }
 // <div className="flex flex-col w-full">
