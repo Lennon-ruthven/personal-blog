@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import Notification from './Notification'
+import portraitImage from '../public/static/images/avatar.jpg'
 
 function SocialLink({ icon: Icon, ...props }) {
   return (
@@ -47,7 +48,7 @@ export default function Hero() {
           <div className="flex items-center justify-center">
             <div className="flex flex-col items-center pt-8 my-2 space-x-2">
               <Image
-                src={siteMetadata.image}
+                src={portraitImage}
                 alt="avatar"
                 width="192px"
                 height="192px"
