@@ -23,8 +23,7 @@ export default function Home({ posts }) {
     <>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <Hero />
-      <Skills />
-      <RecentProjects MAX_PROJECTS="4" />
+      <RecentProjects MAX_PROJECTS="1" />
 
       <div className="my-2 grid items-start gap-8">
                 <div className="group relative">
