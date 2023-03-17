@@ -51,7 +51,7 @@ export default function About() {
             </h1>
             <div className="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
               <p>
-                "Why do I see through my eyes and not yours" and "What am I doing here?" are examples
+                <i>"Why do I see through my eyes and not yours"</i> and <i>"What am I doing here?"</i> are examples
 		of questions that went through my young, innocent 14 year old mind.
               </p>
               <p>
