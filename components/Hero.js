@@ -1,7 +1,8 @@
 import Link from 'next/link'
 import { useState } from 'react'
-import { IoLogoGithub, IoLogoLinkedin, IoMail, IoCall } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoLinkedin, IoMail, IoCall, IoLogoTwitter } from 'react-icons/io5'
 import Notification from './Notification'
+import React from 'react'
 
 function SocialLink({ icon: Icon, ...props }) {
   return (
