@@ -34,7 +34,7 @@ export default function Home({ posts }) {
                       <span className="flex items-center space-x-5">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
-                          className="h-6 w-6 -rotate-6 text-white-600"
+                          className="h-6 w-6 -rotate-6 text-white-300"
                           fill="none"
                           viewBox="0 0 24 24"
                           stroke="currentColor"
