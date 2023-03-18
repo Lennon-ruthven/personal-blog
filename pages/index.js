@@ -54,7 +54,7 @@ export default function Home({ posts }) {
                   </Link>
                 </div>
       </div>
-
+      <Skills />
 
       <div className="container mx-auto divide-y divide-gray-700">
         <div className="my-4 flex flex-col">
