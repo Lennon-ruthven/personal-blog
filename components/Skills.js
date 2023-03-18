@@ -19,7 +19,6 @@ import { showHoverAnimation, removeHoverAnimation } from '../lib/windowAnimation
 import { FadeContainer, popUp } from '../lib/FramerMotionVariants'
 
 const skills = [
-
 ]
 
 const Skills = () => {
