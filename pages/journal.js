@@ -22,7 +22,7 @@ export default function Blog({ posts, initialDisplayPosts, pagination }) {
     <>
       <PageSEO title={`Journal - ${siteMetadata.author}`} description={siteMetadata.description} />
       <ListLayout
-        posts={posts}
+        posts={journals}
         initialDisplayPosts={initialDisplayPosts}
         pagination={pagination}
         title="All journals"
